@@ -1,0 +1,10 @@
+{
+    "force_update": false,
+    "update_describe": {
+        "zh-cn": "新增工具: 码表数据输出",
+        "en-us": "New Tool: Code Table Data Export"
+    },
+    "version": "1.0.0.20",
+    "url": "https://gitee.com/flame_cyclone/fc_font_chr_tool/releases/download/1.0.0.20/FC_Font_Chr_Tool.exe",
+    "url_x86": "https://gitee.com/flame_cyclone/fc_font_chr_tool/releases/download/1.0.0.20/FC_Font_Chr_Tool_x86.exe"
+}

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CWindow">
+      <UniqueIdentifier>{4e4189e3-fba9-4157-92ba-bd6bcc78b4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32Utils">
+      <UniqueIdentifier>{6c0cbfae-a242-4e06-b010-fd51ca49e5ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindow\CDialogBase.cpp">
+      <Filter>CWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindow\CWindowBase.cpp">
+      <Filter>CWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindowDraw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CStrUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CComFileDlg.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CPathUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CBytesUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\IniHelper.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CProcessUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CDumpUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CFileUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CBitmapDraw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CChrFontExport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CCommandLine.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CHttpsDownload.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CFileVersion.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\MessageBoxCenter.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindow\CDialogBase.h">
+      <Filter>CWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindow\CWindowBase.h">
+      <Filter>CWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindowDraw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CStrUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CComFileDlg.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CPathUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CBytesUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\IniHelper.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CProcessUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CDumpUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CFileUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CBitmapDraw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CChrFontExport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CCommandLine.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CHttpsDownload.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CFileVersion.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\MessageBoxCenter.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FC_Font_Tool.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
